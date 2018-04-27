@@ -13,7 +13,7 @@ public class PrikupljanjePodatakaOBazi
     private Connection connection;
     public PrikupljanjePodatakaOBazi() throws SQLException
     {
-        String url = "jdbc:mysql://localhost:3306/mediji";
+        String url = "jdbc:mysql://localhost:3306/primer";
         String username = "root";
         String password = "";
         connection = DriverManager.getConnection(url, username, password);
